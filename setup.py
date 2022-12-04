@@ -16,7 +16,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 setup(
     name="s3-folder-backup",
     version="0.1.0",
-    description="Demo library",
+    description="Backup Folders to S3",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://s3-folder-backup.readthedocs.io/",
