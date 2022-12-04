@@ -4,6 +4,7 @@ Have capacity to back up your server files and folders to AWS S3
 
 <code>
 
+    import s3_folder_backup 
     config =
       {
         "DIR": "",# your server/folder dir
@@ -11,7 +12,6 @@ Have capacity to back up your server files and folders to AWS S3
         "AWS_SECRET_ACCESS_KEY": "",#aws secret key
         "DELETE_LOCAL": "" #want to delete backup file from local system
       }
-
     s3_folder_backup(config).upload()
 
 </code>
