@@ -34,7 +34,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent"
     ],
-    packages=["medium_multiply"],
+    packages=["S3_Folder_Backup"],
     include_package_data=True,
-    install_requires=["numpy"]
+    install_requires=["botocore","zipp"]
 )
